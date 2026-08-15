@@ -1,0 +1,23 @@
+services:
+  api:
+    build: .
+    container_name: Voice-Authentication-System
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Persist user records, generated wheels, and the model cache
+      - ./data:/srv/data
+      - ./workspaces:/srv/workspaces
+      - model-cache:/srv/Backend/app/pretrained_models
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  model-cache:
