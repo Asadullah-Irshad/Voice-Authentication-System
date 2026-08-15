@@ -1,0 +1,23 @@
+# ── Web framework ────────────────────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# ── Config & security ────────────────────────────────────────────────────────
+pydantic-settings==2.7.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+PyJWT==2.10.1
+
+# ── ML / audio pipeline ──────────────────────────────────────────────────────
+numpy==1.26.4
+speechbrain==1.0.2
+torch==2.5.1
+torchaudio==2.5.1
+soundfile==0.12.1
+librosa==0.10.2.post1
+resampy==0.4.3
+huggingface-hub==0.27.1
+
+# ── SDK build ────────────────────────────────────────────────────────────────
+build==1.2.2.post1
