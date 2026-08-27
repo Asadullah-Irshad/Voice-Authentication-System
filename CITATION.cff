@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Voice Authentication System"
+abstract: >-
+  AI-powered voice biometric authentication using SpeechBrain and ECAPA-TDNN
+  for secure speaker verification. A local-first platform that turns voice
+  samples into an installable, offline Python SDK with the voiceprint baked in.
+type: software
+authors:
+  - given-names: Asadullah
+    family-names: Irshad
+    email: asadullahirshad3@gmail.com
+version: "2.0.0"
+date-released: "2026-08-16"
+license: MIT
+repository-code: "https://github.com/Asadullah-Irshad/Voice-Authentication-System"
+url: "https://github.com/Asadullah-Irshad/Voice-Authentication-System"
+keywords:
+  - voice-authentication
+  - speaker-recognition
+  - speaker-verification
+  - voice-biometrics
+  - ecapa-tdnn
+  - speechbrain
+  - deep-learning
+  - fastapi
+  - python
