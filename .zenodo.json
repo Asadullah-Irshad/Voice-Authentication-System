@@ -1,0 +1,33 @@
+{
+  "title": "Voice Authentication System",
+  "description": "AI-powered voice biometric authentication using SpeechBrain and ECAPA-TDNN for secure speaker verification. A local-first platform that turns voice samples into an installable, offline Python SDK (.whl) with the voiceprint baked in. Version 2.0.0 hardens the original prototype with JWT authentication, bcrypt password hashing, rate limiting, upload validation, environment-driven configuration, Docker, continuous integration, and an automated test suite.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "version": "2.0.0",
+  "creators": [
+    {
+      "name": "Irshad, Asadullah",
+      "affiliation": "Centre of Excellence for Data Science, Artificial Intelligence and Modelling (DAIM), University of Hull, United Kingdom",
+      "orcid": "0009-0005-5068-6404"
+    }
+  ],
+  "keywords": [
+    "voice-authentication",
+    "speaker-recognition",
+    "speaker-verification",
+    "voice-biometrics",
+    "ecapa-tdnn",
+    "speechbrain",
+    "deep-learning",
+    "fastapi",
+    "python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Asadullah-Irshad/Voice-Authentication-System",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
